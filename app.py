@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 app = Flask(__name__)
 
 @app.route('/')
@@ -23,7 +23,12 @@ def birthday():
 
 @app.route('/greeting/<name>')
 def greeting(name):
-    return "Hello " + name
+    return "Hello " + name	
+	
+@app.route('/favoritefoods')
+def favorites():
+	myFavorites = ['chocolate', 'Pop Tarts', 'squid']
+	return jsonify(myFavorites)
 
 if __name__ == "__main__":
     app.run()
