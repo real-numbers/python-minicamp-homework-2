@@ -2,7 +2,7 @@
 
 Git is for managing versions of your files locally, and GitHub is for keeping a synchronized set of files and a record of changes in the cloud.  It's nice to work on stuff locally and then _push_ your changes to the cloud.
 
-1.  Sign up on[GitHub}(http:GitHub.com). This is where your cloud copy or _repo_ will live.
+1.  Sign up on[GitHub](http:GitHub.com). This is where your cloud copy or _repo_ will live.
 2.  Download, install and set up _Git_ on your computer.  Follow the Git documentation and make sure the command `git status` works and `git config user.name` and `git config user.email` return correct information about your github account.
 3.  Navigate in your web browser to the homework url..
       https://github.com/SunJieMing/python-minicamp-homework-2
