@@ -9,7 +9,7 @@ Git is for managing versions of your files locally, and GitHub is for keeping a 
     and click on _Fork_ in the upper right corner.
 4.  Now you have your own copy here:
       https://github.com/your-github-username/python-minicamp-homework-2
-5.  While you are in your own copy, copy the URL from the browser for pasting
+5.  While you are in your own copy, copy the URL from the browser for pasting. 
 6.  In terminal or command window, change to the directory where you want to create a new directory for your homework, in Windows it might be `cd \Users\username\Desktop`.
 7.  Run this command to create the directory and copy the files from Github..
       `git clone https://github.com/your-github-username/python-minicamp-homework-2`
